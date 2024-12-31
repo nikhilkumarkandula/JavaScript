@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.container h1 img{
+    width: 60px;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Space between the icon and the text */
+    padding: 15px 25px; /* Space inside the button */
+    background: linear-gradient(45deg, #6a0dad, #e0b3ff); /* Attractive violet gradient */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  button:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: scale(0.95); /* Press effect */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 5px;
+}  
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.input-box img:hover{
+    
+    transform: scale(1.05);
+}
+.input-box img:active{
+    
+    transform: scale(0.95);
+}
